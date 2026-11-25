@@ -2,9 +2,10 @@
 __pycache__/
 *.pyc
 dist/
+# 実装・検証以外の作業場（ツール本体ではないため git 管理外）
 blog/
 # 検証用サンプル本体（tools/make_samples.py で再生成できる 44MB のダミーデータ）は入れない。
-# 検証の出力（Excel・CSV・tree_F.txt）は README と記事で参照するので残す
+# 検証の出力（Excel・CSV・tree_F.txt）は README と docs の検証記録で参照するので残す
 samples/*
 !samples/検証結果/
 ~$*
