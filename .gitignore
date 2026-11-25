@@ -3,5 +3,9 @@ __pycache__/
 *.pyc
 dist/
 blog/
+# 検証用サンプル本体（tools/make_samples.py で再生成できる 44MB のダミーデータ）は入れない。
+# 検証の出力（Excel・CSV・tree_F.txt）は README と記事で参照するので残す
+samples/*
+!samples/検証結果/
 ~$*
 .playwright-mcp/
